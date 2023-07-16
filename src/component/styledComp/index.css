@@ -1,0 +1,44 @@
+div {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*button*/
+.btn {
+    background-color: hsl(123, 79%, 48%);
+    color: #fff;
+   /* width: 40%;*/
+    border: 1px solid;
+    padding: 8px;
+    transition:  0.5s ease-in-out;
+    cursor: pointer;
+}
+.outlined {
+    border: 2px solid white;
+}
+/*input field*/
+label{
+    display: block;
+    text-align: left;
+    padding-bottom: 2px;
+    font-style: italic;
+}
+input{
+    width: 100%;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f7f4f4;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+/*card*/
+.card{
+    padding: 2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 0px 2px 0 #ddd;
+}
